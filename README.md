@@ -1,2 +1,2 @@
 # Tic-Tac-Toe-JavaScript
-Tic Tac Toe Game written with Vanilla JavaScript, HTML &amp; CSS
+A simple online Tic Tac Toe game written with Vanilla JavaScript, HTML &amp; CSS
