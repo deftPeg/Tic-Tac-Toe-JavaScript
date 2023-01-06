@@ -5,6 +5,8 @@ A simple online Tic Tac Toe game written with Vanilla JavaScript, HTML &amp; CSS
 
 <hr>
 
+<br>
+<br>
 <!-- Technologies used -->
 <div name = "Technologies"> 
 <h2 align="left">🛠 Languages and Tools:</h2>
@@ -17,8 +19,12 @@ A simple online Tic Tac Toe game written with Vanilla JavaScript, HTML &amp; CSS
 
 <hr>
 
+<br>
  <!-- Screenshot -->
-  <a href="https://deftpegtictactoejs.netlify.app/" target="_blank" rel="noreferrer"> <img align="right" src="./assets/ticTacToeScreenShot.png" alt="Tic Tac Toe Screen" height="180"/> </a> 
+  <a href="https://deftpegtictactoejs.netlify.app/" target="_blank" rel="noreferrer"> <img align="right" src="./assets/ticTacToeScreenShot.png" alt="Tic Tac Toe Screen" height="300"/> </a> 
+
+<br>
+<br>
 
    <!-- Online link -->
    <div name = "Online presence"> 
