@@ -1,12 +1,12 @@
-// assign status display from DOM to variable
+// assign status display from DOM to variable.
 let statusDisplay = document.querySelector('.gameStatus');
 
-// assign state of game, active player x turn and empty cells
+// assign state of game, active player x turn and empty cells.
 let gameActive = true;
 let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
-// declare messages for win, draw and current player
+// declare messages for win, draw and current player.
 let winningMessage = () => `Player ${currentPlayer} has won!`;
 let drawMessage = () => `The game ended in a draw!`;
 let currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
@@ -14,7 +14,7 @@ let currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 // display the current player
 statusDisplay.innerHTML = currentPlayerTurn();
 
-// declare the winning combinations according to the cells
+// declare the winning combinations according to the cells.
 let winningConditions = [
     [0, 1, 2],
     [3, 4, 5],
@@ -26,7 +26,7 @@ let winningConditions = [
     [2, 4, 6]
 ];
 
-// function to handle the cell getting clicked and assign the proper player
+// function to handle the cell getting clicked and assign the proper player.
 function handleCellPlayed(clickedCell, clickedCellIndex) {
     gameState[clickedCellIndex] = currentPlayer;
     clickedCell.innerHTML = currentPlayer;
@@ -41,7 +41,7 @@ function handlePlayerChange() {
 // function to see if game has been won
 function handleResultValidation() {
     let roundWon = false;
-    // there are 7 winning combination indices. We iterate through each
+    // there are 7 winning combination indices. We iterate through each.
     for (let i = 0; i <= 7; i++) {
         let winCondition = winningConditions[i];
         // check each of the combinations via index within index (index[i])
